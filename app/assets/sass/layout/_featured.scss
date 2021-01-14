@@ -1,0 +1,49 @@
+.featured {
+  .featured__container {
+    width: 77rem;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .featured__categories {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 2rem 0 1rem 0;
+      }
+      .categories-items {
+        line-height: 2rem;
+        a {
+          display: inline-block;
+          color: $blue-400;
+          font-weight: 700;
+        }
+        p {
+          color: $gray-400;
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .featured-button {
+      padding-top: 2rem;
+      a {
+        @include button(
+          $blue-400,
+          $primary,
+          transparent,
+          5px,
+          0.7rem,
+          0.7rem,
+          $blue-600,
+          $primary
+        );
+        font-weight: 700;
+      }
+    }
+  }
+}

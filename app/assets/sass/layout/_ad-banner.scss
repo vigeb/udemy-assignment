@@ -1,0 +1,32 @@
+.ad-banner {
+  background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg)
+    repeat-x #6e1a52;
+  .ad-banner__container {
+    width: 77rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+    color: $primary;
+    h1 {
+      font-size: 2rem;
+      font-weight: 70 0;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    a {
+      display: inline-block;
+      font-weight: 700;
+      @include button(
+        transparent,
+        $primary,
+        $primary,
+        5px,
+        0.5rem,
+        0.5rem,
+        $primary,
+        $primary
+      );
+    }
+  }
+}

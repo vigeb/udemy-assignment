@@ -1,12 +1,2596 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Udemy home page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>hello</h1>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <header>
+      <div class="header__container">
+        <img src="./assets/images/logo/logo-coral.svg" alt="logo" />
+        <div class="header__dropdown">
+          <a href="#">Categories</a>
+        </div>
+        <div class="header__searchbar">
+          <form>
+            <input type="text" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div class="header__dropdown">
+          <a href="#">Udemy for Business</a>
+        </div>
+        <div class="header__dropdown">
+          <a href="#">Teach on Udemy</a>
+        </div>
+        <div class="header__cartlogo">
+          <i class="fa fa-shopping-cart"></i>
+        </div>
+        <button class="header__button1">Log in</button>
+        <button class="header__button2">Sign up</button>
+      </div>
+    </header>
+    <section class="billboard">
+      <div class="billboard__container">
+        <div class="billboard__inner">
+          <img src="./assets/images/billboard/billboard.jpg" alt="img" />
+          <div class="billboard__content-box">
+            <h1>Upgrade your future</h1>
+            <p>
+              Learn anywhere from any device. Take a<br />
+              course for as low as $11.99.
+            </p>
+            <div class="input-box">
+              <input type="text" placeholder="What do you want to learn" />
+              <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="billboard__below">
+          <div class="billboard__item">
+            <div class="item__icon">
+              <i class="fa fa-play-circle"></i>
+            </div>
+            <div class="item__content">
+              <h1>130,000 online courses</h1>
+              <p>Enjoy a variety of fresh topics</p>
+            </div>
+          </div>
+          <div class="billboard__item">
+            <div class="item__icon">
+              <i class="fa fa-play-circle"></i>
+            </div>
+            <div class="item__content">
+              <h1>130,000 online courses</h1>
+              <p>Enjoy a variety of fresh topics</p>
+            </div>
+          </div>
+          <div class="billboard__item">
+            <div class="item__icon">
+              <i class="fa fa-play-circle"></i>
+            </div>
+            <div class="item__content">
+              <h1>130,000 online courses</h1>
+              <p>Enjoy a variety of fresh topics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popular">
+      <div class="popular__container">
+        <h1>The world's largest selection of courses</h1>
+        Choose from 130,000 online video courses with new additions published
+        every month
+
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a
+              class="nav-link active"
+              id="nav-Python-tab"
+              data-toggle="tab"
+              href="#nav-Python"
+              role="tab"
+              aria-controls="nav-Python"
+              aria-selected="true"
+              >Python</a
+            >
+            <a
+              class="nav-link"
+              id="nav-Excel-tab"
+              data-toggle="tab"
+              href="#nav-Excel"
+              role="tab"
+              aria-controls="nav-Excel"
+              aria-selected="false"
+              >Excel</a
+            >
+            <a
+              class="nav-link"
+              id="nav-Webdev-tab"
+              data-toggle="tab"
+              href="#nav-Webdev"
+              role="tab"
+              aria-controls="nav-Webdev"
+              aria-selected="false"
+              >Web Developement</a
+            ><a
+              class="nav-link"
+              id="nav-Javascript-tab"
+              data-toggle="tab"
+              href="#nav-Javascript"
+              role="tab"
+              aria-controls="nav-Javascript"
+              aria-selected="false"
+              >Javascript</a
+            >
+            <a
+              class="nav-link"
+              id="nav-DataScience-tab"
+              data-toggle="tab"
+              href="#nav-DataScience"
+              role="tab"
+              aria-controls="nav-DataScience"
+              aria-selected="false"
+              >Data Science</a
+            >
+            <a
+              class="nav-link"
+              id="nav-AWSCertification-tab"
+              data-toggle="tab"
+              href="#nav-AWSCertification"
+              role="tab"
+              aria-controls="nav-AWSCertification"
+              aria-selected="false"
+              >AWS Certification</a
+            >
+            <a
+              class="nav-link"
+              id="nav-Drawing-tab"
+              data-toggle="tab"
+              href="#nav-Drawing"
+              role="tab"
+              aria-controls="nav-Drawing"
+              aria-selected="false"
+              >Drawing</a
+            >
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-Python"
+            role="tabpanel"
+            aria-labelledby="nav-Python-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Expand your career opportunities with Python</h1>
+                <p>
+                  Whether you work in machine learning or finance, or are
+                  pursuing a career in web development or data science, Python
+                  is one of the most important skills you can learn. Python's
+                  simple syntax is especially suited for desktop, web, and
+                  business applications. Python's design philosophy ...
+                </p>
+                <a href="#"
+                  >Explore Python
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/pythongirl.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="banner__slider"></div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-Excel"
+            role="tabpanel"
+            aria-labelledby="nav-Excel-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Analyze and visualize data with Excel</h1>
+                <p>
+                  Regardless of the industry you work in, Microsoft Office Excel
+                  is an invaluable spreadsheet program for organizing and
+                  representing data. Excel offers functions, formulas, and pivot
+                  tables to help you aggregate and then analyze large sets of
+                  information. Excel first truly appeared on...
+                </p>
+                <a href="#"
+                  >Explore Python
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/excelgirl.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-Webdev"
+            role="tabpanel"
+            aria-labelledby="nav-Webdev-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Expand your career opportunities with Python</h1>
+                <p>
+                  Whether you work in machine learning or finance, or are
+                  pursuing a career in web development or data science, Python
+                  is one of the most important skills you can learn. Python's
+                  simple syntax is especially suited for desktop, web, and
+                  business applications. Python's design philosophy ...
+                </p>
+                <a href="#"
+                  >Explore Python
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/webdevboi.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-Javascript"
+            role="tabpanel"
+            aria-labelledby="nav-Javascript-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Expand your career opportunities with Javascript</h1>
+                <p>
+                  Whether you work in machine learning or finance, or are
+                  pursuing a career in web development or data science, Python
+                  is one of the most important skills you can learn. Python's
+                  simple syntax is especially suited for desktop, web, and
+                  business applications. Python's design philosophy ...
+                </p>
+                <a href="#"
+                  >Explore Javascript
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/pythongirl.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-DataScience"
+            role="tabpanel"
+            aria-labelledby="nav-DataScience-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Expand your career opportunities with Python</h1>
+                <p>
+                  Whether you work in machine learning or finance, or are
+                  pursuing a career in web development or data science, Python
+                  is one of the most important skills you can learn. Python's
+                  simple syntax is especially suited for desktop, web, and
+                  business applications. Python's design philosophy ...
+                </p>
+                <a href="#"
+                  >Explore Python
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/pythongirl.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-AWSCertification"
+            role="tabpanel"
+            aria-labelledby="nav-AWSCertification-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Expand your career opportunities with Python</h1>
+                <p>
+                  Whether you work in machine learning or finance, or are
+                  pursuing a career in web development or data science, Python
+                  is one of the most important skills you can learn. Python's
+                  simple syntax is especially suited for desktop, web, and
+                  business applications. Python's design philosophy ...
+                </p>
+                <a href="#"
+                  >Explore Python
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/pythongirl.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-Drawing"
+            role="tabpanel"
+            aria-labelledby="nav-Drawing-tab"
+          >
+            <div class="popular__banner">
+              <div class="banner__content">
+                <h1>Expand your career opportunities with Python</h1>
+                <p>
+                  Whether you work in machine learning or finance, or are
+                  pursuing a career in web development or data science, Python
+                  is one of the most important skills you can learn. Python's
+                  simple syntax is especially suited for desktop, web, and
+                  business applications. Python's design philosophy ...
+                </p>
+                <a href="#"
+                  >Explore Python
+                  <span><i class="fa fa-chevron-right"></i></span
+                ></a>
+              </div>
+              <div class="banner__img">
+                <img src="./assets/images/logo/pythongirl.jpg" alt="girl" />
+              </div>
+            </div>
+            <div class="owl-carousel">
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python2021.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img src="./assets/images/courses/pythonAZ.jpg" alt="img" />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonForDS.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/pythonLearnProgramming.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="courses">
+                <a href="#">
+                  <div class="courses__item">
+                    <img
+                      src="./assets/images/courses/python10MegaCourses.jpg"
+                      alt="img"
+                    />
+                    <div class="courses__detail">
+                      <h1>
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </h1>
+                      <p>Jose Portilla</p>
+                      <p>
+                        4.7
+                        <span
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                          ><i class="fa fa-star-half"></i
+                        ></span>
+                        <span>(10978)</span>
+                      </p>
+                      <h1>A$139.99</h1>
+                      <h2>Bestseller</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="courses__below">
+        <div class="courses__below__container">
+          <div class="courses__below__item">
+            <div class="item__icon">
+              <i class="fa fa-play-circle"></i>
+            </div>
+            <div class="item__content">
+              <h1>Go at your own pace</h1>
+              <p>Enjoy lifetime access to courses on Udemy’s website and app</p>
+            </div>
+          </div>
+          <div class="courses__below__item">
+            <div class="item__icon">
+              <i class="fa fa-play-circle"></i>
+            </div>
+            <div class="item__content">
+              <h1>Learn from industry experts</h1>
+              <p>Select from top instructors around the world</p>
+            </div>
+          </div>
+          <div class="courses__below__item">
+            <div class="item__icon">
+              <i class="fa fa-play-circle"></i>
+            </div>
+            <div class="item__content">
+              <h1>Find video courses on almost any topic</h1>
+              <p>Build your library for your career and personal growth</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ad-banner">
+      <div class="ad-banner__container">
+        <h1>Get personal learning recommendations</h1>
+        <p>Answer a few questions for your top picks</p>
+        <a href="#">Get started</a>
+      </div>
+    </section>
+    <section class="top">
+      <div class="top__container">
+        <h1>Top categories</h1>
+        <div class="top__row">
+          <a href="#">
+            <div class="top__item">
+              <img src="./assets/images/top-categories/design.jpg" alt="img" />
+              <h1>Design</h1>
+            </div>
+          </a>
+          <a href="#"
+            ><div class="top__item">
+              <img
+                src="./assets/images/top-categories/development.jpg"
+                alt="img"
+              />
+              <h1>Developement</h1>
+            </div>
+          </a>
+          <a href="#"
+            ><div class="top__item">
+              <img
+                src="./assets/images/top-categories/marketing.jpg"
+                alt="img"
+              />
+              <h1>Marketing</h1>
+            </div>
+          </a>
+          <a href="#"
+            ><div class="top__item">
+              <img
+                src="./assets/images/top-categories/ITandSoftware.jpg"
+                alt="img"
+              />
+              <h1>IT and Software</h1>
+            </div>
+          </a>
+        </div>
+        <div class="top__row">
+          <a href="#">
+            <div class="top__item">
+              <img
+                src="./assets/images/top-categories/personal-dev.jpg"
+                alt="img"
+              />
+              <h1>Personal Developement</h1>
+            </div>
+          </a>
+          <a href="#"
+            ><div class="top__item">
+              <img
+                src="./assets/images/top-categories/business.jpg"
+                alt="img"
+              />
+              <h1>Business</h1>
+            </div>
+          </a>
+          <a href="#"
+            ><div class="top__item">
+              <img
+                src="./assets/images/top-categories/photography.jpg"
+                alt="img"
+              />
+              <h1>Photography</h1>
+            </div>
+          </a>
+          <a href="#"
+            ><div class="top__item">
+              <img src="./assets/images/top-categories/music.jpg" alt="img" />
+              <h1>Music</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="featured">
+      <div class="featured__container">
+        <h1>Featured topics by category</h1>
+        <div class="featured__categories">
+          <div class="categories-col">
+            <h1>Development</h1>
+            <div class="categories-items">
+              <a href="#">Python</a>
+              <p>23,427,129 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Web Development</a>
+              <p>7,998,676 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Machine Learning</a>
+              <p>4,573,866 students</p>
+            </div>
+          </div>
+          <div class="categories-col">
+            <h1>Development</h1>
+            <div class="categories-items">
+              <a href="#">Python</a>
+              <p>23,427,129 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Web Development</a>
+              <p>7,998,676 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Machine Learning</a>
+              <p>4,573,866 students</p>
+            </div>
+          </div>
+          <div class="categories-col">
+            <h1>Development</h1>
+            <div class="categories-items">
+              <a href="#">Python</a>
+              <p>23,427,129 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Web Development</a>
+              <p>7,998,676 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Machine Learning</a>
+              <p>4,573,866 students</p>
+            </div>
+          </div>
+          <div class="categories-col">
+            <h1>Development</h1>
+            <div class="categories-items">
+              <a href="#">Python</a>
+              <p>23,427,129 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Web Development</a>
+              <p>7,998,676 students</p>
+            </div>
+            <div class="categories-items">
+              <a href="#">Machine Learning</a>
+              <p>4,573,866 students</p>
+            </div>
+          </div>
+        </div>
+        <div class="featured-button"><a href="#">Explore more</a></div>
+      </div>
+    </section>
+    <section class="trusted">
+      <div class="trusted__container">
+        <h1>Trusted by companies of all sizes</h1>
+        <div class="trusted-company">
+          <img
+            class="company-name"
+            src="./assets/images/trusted/booking-logo.svg"
+            alt="company-logo"
+          />
+          <img
+            class="company-logo"
+            src="./assets/images/trusted/volkswagen-logo.svg"
+            alt="company-logo"
+          />
+          <img
+            class="company-logo"
+            src="./assets/images/trusted/mercedes-logo-v2.svg"
+            alt="company-logo"
+          />
+          <img
+            class="company-logo"
+            src="./assets/images/trusted/adidas-logo.svg"
+            alt="company-logo"
+          />
+          <img
+            class="company-name"
+            src="./assets/images/trusted/eventbrite-logo.svg"
+            alt="company-logo"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__links">
+          <div class="links__col">
+            <a href="#">Udemy for Business</a>
+            <a href="#">Teach on Udemy</a>
+            <a href="#">Get the app</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+          </div>
+          <div class="links__col">
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Help and Support</a>
+            <a href="#">Affiliate</a>
+          </div>
+          <div class="links__col">
+            <a href="#">Terms</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Sitemap</a>
+            <a href="#">Featured courses</a>
+          </div>
+          <div class="language">
+            <select name="language" id="language-id">
+              <option value="en_US">English</option>
+              <option value="de_DE">Deutsch</option>
+              <option value="es_ES">Español</option>
+              <option value="fr_FR">Français</option>
+              <option value="id_ID">Bahasa Indonesia</option>
+              <option value="it_IT">Italiano</option>
+              <option value="ja_JP">日本語</option>
+              <option value="ko_KR">한국어</option>
+              <option value="nl_NL">Nederlands</option>
+              <option value="pl_PL">Polski</option>
+              <option value="pt_BR">Português</option>
+              <option value="ro_RO">Română</option>
+              <option value="ru_RU">Русский</option>
+              <option value="th_TH">ภาษาไทย</option>
+              <option value="tr_TR">Türkçe</option>
+              <option value="zh_CN">中文(简体)</option>
+              <option value="zh_TW">中文(繁體)</option>
+            </select>
+          </div>
+        </div>
+        <div class="logo-and-copyrights">
+          <img src="./assets/images/logo/logo-coral.svg" alt="logo" />
+          <p>© 2021 Udemy, Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./bundled.js"></script>
   </body>
 </html>

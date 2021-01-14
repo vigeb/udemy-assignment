@@ -1,0 +1,36 @@
+.footer {
+  .footer__container {
+    padding: 2.4rem 4.8rem;
+    .footer__links {
+      display: flex;
+      .links__col {
+        margin-right: 8rem;
+        a {
+          display: block;
+          color: $blue-400;
+          font-size: 0.9rem;
+        }
+      }
+      .language {
+        margin-left: auto;
+      }
+      select {
+        padding: 0.5rem;
+        border: $gray-400 1px solid;
+        border-radius: 5px;
+      }
+    }
+  }
+  .logo-and-copyrights {
+    padding-top: 2.4rem;
+    display: flex;
+    img {
+      width: 7rem;
+    }
+    p {
+      margin-left: auto;
+      color: $gray-400;
+      font-size: 0.8rem;
+    }
+  }
+}

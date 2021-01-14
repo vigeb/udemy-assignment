@@ -1,0 +1,24 @@
+.trusted {
+  .trusted__container {
+    text-align: center;
+    border: 1px $gray-200 solid;
+    h1 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin: 2rem 0;
+    }
+    .trusted-company {
+      display: inline-flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      .company-logo {
+        height: 2rem;
+      }
+      .company-name {
+        height: 1.5rem;
+      }
+    }
+  }
+}
