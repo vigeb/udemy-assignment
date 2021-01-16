@@ -1,5 +1,6 @@
 .popular {
   margin-top: 1.5rem;
+
   .popular__intro {
     h1 {
       font-weight: 700;
@@ -8,7 +9,6 @@
     p {
       color: $gray-600;
     }
-    padding: 0 1.5rem;
   }
   .popular__container {
     width: 100%;
@@ -86,12 +86,17 @@
       }
     }
   }
+
   .popular__container--mobile {
+    display: none;
     width: 100%;
     padding: 0 1.5rem;
+
+    margin-bottom: 2rem;
     .accordion {
       .card {
         border: none;
+
         .card-header {
           padding: 1rem 0;
           border: none;
@@ -115,6 +120,9 @@
         .card-body {
           padding: 0.5rem 0;
         }
+      }
+      .card:last-child {
+        border-bottom: 1px solid $gray-200;
       }
     }
   }
@@ -256,11 +264,13 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .popular__container {
-    display: none;
-  }
-  .popular__container--mobile {
-    display: block;
+  .popular {
+    .popular__container {
+      display: none;
+    }
+    .popular__container--mobile {
+      display: block;
+    }
   }
 }
 @media screen and (max-width: 600px) {
