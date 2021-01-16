@@ -1,0 +1,102 @@
+.viewing {
+  .viewing__container {
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    padding: 0 2rem;
+    h1 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-bottom: -1rem;
+    }
+
+    .owl-carousel {
+      margin: 2rem 0rem;
+
+      gap: 1rem;
+      position: relative;
+      .owl-nav {
+        button {
+          display: block;
+          outline: none;
+
+          i {
+            color: $blue-600;
+            display: block;
+            width: 3rem;
+            height: 3rem;
+            background-color: $primary;
+            line-height: 3rem;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08),
+              0 4px 12px rgba(0, 0, 0, 0.08);
+          }
+        }
+        .owl-prev {
+          position: absolute;
+          top: 2.7rem;
+          left: -1.5rem;
+        }
+        .owl-next {
+          position: absolute;
+          top: 2.7rem;
+          right: -1.5rem;
+        }
+      }
+      .courses {
+        .courses__item {
+          img {
+            border: 1px $gray-400 solid;
+            width: 100%;
+          }
+          .courses__detail {
+            h1 {
+              color: black;
+              font-size: 1rem;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              margin-bottom: 0rem;
+            }
+            p {
+              color: $gray-400;
+              display: -webkit-box;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              i {
+                color: $yellow-600;
+              }
+            }
+            h2 {
+              color: #000;
+              font-size: 0.8rem;
+              font-weight: 400;
+              display: inline-block;
+
+              @include button(
+                $yellow-400,
+                #000,
+                transparent,
+                5px,
+                0.5rem,
+                0.5rem,
+                $yellow-400,
+                #000
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .viewing {
+    .viewing__container {
+      padding: 0 1rem;
+    }
+  }
+}

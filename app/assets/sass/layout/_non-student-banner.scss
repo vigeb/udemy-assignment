@@ -1,0 +1,109 @@
+.non-student-banner {
+  .non-student-banner__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 6rem;
+    margin: 3rem 0;
+
+    img {
+      width: 400px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+      height: auto;
+      margin: 0 1rem;
+    }
+    .non-student-banner__content {
+      max-width: 40rem;
+      padding: 0 2rem;
+      h1 {
+        font-weight: 700;
+        font-size: 2rem;
+      }
+      p {
+        font-weight: 400;
+
+        font-size: 1.2rem;
+      }
+      a {
+        display: inline-block;
+
+        @include button(
+          $blue-400,
+          $primary,
+          transparent,
+          5px,
+          0.8rem,
+          0.5rem,
+          $blue-800,
+          $primary
+        );
+
+        font-weight: 700;
+      }
+    }
+    video {
+      width: 505px;
+      height: 284px;
+    }
+  }
+  .non-student-banner__above {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent 0%,
+      transparent 10%,
+      #fbfbf8 10%,
+      #fbfbf8 90%,
+      transparent 90%,
+      transparent 100%
+    );
+    p {
+      color: $gray-600;
+    }
+  }
+  .non-student-banner__below {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent 0%,
+      transparent 10%,
+      #003640 10%,
+      #003640 90%,
+      transparent 90%,
+      transparent 100%
+    );
+
+    p {
+      color: $primary;
+    }
+    h1 {
+      color: $primary;
+    }
+  }
+  .non-student-banner__video {
+    border-top: 1px $gray-200 solid;
+    border-bottom: 1px $gray-200 solid;
+  }
+}
+
+@media screen and (max-width: 981px) {
+  .non-student-banner {
+    img {
+      display: none;
+    }
+  }
+  .non-student-banner__content {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .non-student-banner {
+    .non-student-banner__container {
+      .non-student-banner__content {
+        a {
+          display: block;
+        }
+      }
+    }
+  }
+}

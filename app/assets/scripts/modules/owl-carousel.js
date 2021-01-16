@@ -6,8 +6,9 @@ $(document).ready(function(){
                 items: 1.5, 
                 margin: 16,
                 slideBy: 1, 
-                nav: true,
+                nav: false,
                 navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
+                touchDrag: true,
             },
             600: {
                 items: 2, 

@@ -2,25 +2,107 @@
   .top__container {
     max-width: 77rem;
     margin: 3rem auto;
+    padding: 0 1rem;
     h1 {
       font-size: 1.5rem;
       font-weight: 700;
     }
     .top__row {
+      max-width: 77rem;
+
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      gap: 1rem;
+
       margin: 1rem 0;
+      .top__item {
+        width: 24%;
+        margin-bottom: 1rem;
+        a {
+          display: block;
+          border: $gray-200 1px solid;
+
+          border-radius: 5px;
+          h1 {
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.8rem 1.5rem 1.5rem 1.5rem;
+            height: 4rem;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .top__item:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .top__row--mobile {
+      // display: none;
+      display: none;
+
       a {
+        display: inline-block;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        @include button(
+          $primary,
+          $blue-400,
+          $blue-400,
+          100px,
+          0.5rem,
+          0.6rem,
+          $primary,
+          #073e47
+        );
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .top {
+    .top__container {
+      .top__row {
+        .top__item {
+          display: none;
+        }
+      }
+      .top__row--mobile {
         display: block;
-        border: $gray-200 1px solid;
-        border-radius: 5px;
-        h1 {
-          color: #000;
-          font-size: 1.2rem;
-          font-weight: 700;
-          padding: 1rem 0 1.5rem 1.5rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 981px) {
+  .top {
+    .top__container {
+      .top__row {
+        .top__item {
+          a {
+            h1 {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .top {
+    .top__container {
+      .top__row {
+        .top__item {
+          width: 32%;
         }
       }
     }
